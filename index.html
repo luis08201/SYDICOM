@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/513e65e438.js" crossorigin="anonymous"></script>
+    <title>SYDICOM</title>
+</head>
+<body>
+    <div class="main-wrapper">        
+        <header class="header">
+            <div class="header__logo">
+                <img src="img/logo.png" alt="" class="header__img">
+            </div>
+            <nav class="navbar" id="navLinks">
+                <div class="btnhide" id="hidebtn">
+                    <i class="hide__btn fa fa-times" onclick="hideMenu()" aria-hidden="true"></i>
+                </div>             
+
+                <ul class="navbar__menu">
+                    <li class="navbar__item"><a href="index.html" class="navbar__link">Inicio</a></li>
+                    <li class="navbar__item"><a href="cursos.html" class="navbar__link">Cursos</a></li>
+                    <li class="navbar__item"><a href="contacto.html" class="navbar__link">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="toggle__menu">
+                <i class="menu__btn fas fa-bars" onclick="showMenu()"></i>
+            </div>
+        </header>
+     <section class="main__carousel">
+         <div class="slide__carousel fade">
+             <img src="img/Slideshow1.jpg" alt="" class="slide__img">
+             <div class="carousel__text">
+                 <p class="carousel__paragraph">
+                    Hace quince años inicio este proyecto para responder a la gran necesidad en el aprendizqaje manejo de la tecnología
+                    moderna que existia en esos momentos. Ofertamos diversos cursos de computacion como: Operador micro computadora,
+                    reparación y mantenimniento, Diseño Grafico, entre otros....
+                 </p>
+             </div>
+         </div>
+        <div class="slide__carousel fade">
+            <img src="img/Slideshow2.jpg" alt="" class="slide__img">
+            <div class="carousel__text">
+                <p class="carousel__paragraph">
+                    El diseño gráfico es una profesión cuya actividad consiste en concebir, organizar, proyectar y realizar comunicaciones
+                    visuales, producidas en general por medios industriales y destinadas a transmitir mensajes específicos a grupos sociales
+                    y con objetivos claros y determinados....
+                </p>
+            </div>
+        </div>
+        <div class="slide__carousel fade">
+            <img src="img/Slideshow3.jpg" alt="" class="slide__img">
+            <div class="carousel__text">
+                <p class="carousel__paragraph">
+                    La seguridad informática o seguridad de tecnologías de la información es el área de la informática que se enfoca en la
+                    protección de la infraestructura computacional y todo lo relacionado con esta y, especialmente, la información contenida
+                    o circulante...
+                </p>
+            </div>
+        </div>
+        <div class="slide__carousel fade">
+            <img src="img/Slideshow4.jpg" alt="" class="slide__img">
+            <div class="carousel__text">
+                <p class="carousel__paragraph">
+                    Microsoft Excel es una aplicación de hoja de cálculo distribuida bajo el paquete de Microsoft Office, usada más que todo
+                    para realizar cálculos contables, financieros y administrativos. Objetivo Conocer más...
+                </p>
+            </div>
+        </div>
+        <div class="slide__carousel fade">
+            <img src="img/Slideshow5.jpg" alt="" class="slide__img">
+            <div class="carousel__text">
+                <p class="carousel__paragraph">
+                    Adquirir conocimientos para desempeñarse como asistente administrativo en diferentes organizaciones laborales o sociales
+                    y adquirir actitud positiva hacia el desempeño laboral eficiente y de calidad....
+                </p>
+            </div>
+        </div>
+<div class="carousel__btns">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+
+        <a onClick="plusSlides(-1)" class="prev">&#10094;</a>
+        <a onClick="plusSlides(1)" class="next">&#10095;</a>
+     </section>
+        <main class="main__page">  
+            <section class="main__catalogo">
+                <div class="catalogo__items">
+                    <div class="subcatalogo__item">
+                        <h3 class="catalogo__heading">Cursos</h3>
+                    </div>
+                    <div class="subcatalogo__item">
+                        <img src="img/catalogo (1).jpg" alt="" class="catalogo__img">
+                    </div>
+                    <div class="subcatalogo__item">
+                        <article class="catalogo__article">
+                            <p class="catalogo__paragraph">Nuestra institución le ofrece desde cursos básicos para aprender el
+                                manejo de una computadora hasta cursos avanzados
+                                como programación, virtualización, desarrollo web, usando tecnologías de Software Libre. También
+                                ofrecemos
+                                cursos/talleres de acuerdo con sus necesidades, consúltenos.
+                            </p>
+                        </article>
+                    </div>
+                    <div class="subcatalogo__item">
+                        <a href="cursos.html" class="catalogo__btc">Conozca mas</a>
+                    </div>
+                </div>
+                <div class="catalogo__items">
+                    <div class="subcatalogo__item">
+                        <h3 class="catalogo__heading">Personal Docente
+                        </h3>
+                    </div>
+                    <div class="subcatalogo__item">
+                        <img src="img/catalogo (2).png" alt="" class="catalogo__img">
+                    </div>
+                    <div class="subcatalogo__item">
+                        <article class="catalogo__article">
+                            <p class="catalogo__paragraph">Conozca a nuestro equipo docente, formado en las ramas de Ingeniería
+                                con muchos años de experiencia que garantizan
+                                nuestra enseñanza y le brindará a usted como estudiante un aprendizaje de calidad.
+                            </p>
+                        </article>
+                    </div>
+                    <div class="subcatalogo__item">
+                        <a href="docentes.html" class="catalogo__btc">Conozca mas</a>
+                    </div>
+                </div>
+                <div class="catalogo__items">
+                    <div class="subcatalogo__item">
+                        <h3 class="catalogo__heading">SYDICOM</h3>
+                    </div>
+                    <div class="subcatalogo__item">
+                        <img src="img/catalogo (3).jpg" alt="" class="catalogo__img">
+                    </div>
+                    <div class="subcatalogo__item">
+                        <article class="catalogo__article">
+                            <p class="catalogo__paragraph">Conozca más acerca de nuestra institución.</p>
+                        </article>
+                    </div>
+                    <div class="subcatalogo__item">
+                        <a href="acerca-de.html" class="catalogo__btc">Conozca mas</a>
+                    </div>
+                </div>
+            </section>  
+        </main>        
+    </div>
+    <footer class="footer">
+        <article class="footer__article">
+            <p class="footer__paragraph">Todos los derechos reservados © 2015. Desarrollado por Luis Alexander Selva</p>
+        </article>
+        <div class="footer__socialnetwork">
+            <i class="scn fab fa-facebook-square"></i>
+            <i class="scn fab fa-twitter-square"></i>
+        </div>
+    </footer>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("slide__carousel");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+        <script src="menu.js"></script>
+</body>
+</html>

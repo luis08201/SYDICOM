@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/513e65e438.js" crossorigin="anonymous"></script>
+    <title>SYDICOM</title>
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <header class="header">
+            <div class="header__logo">
+                <img src="img/logo.png" alt="" class="header__img">
+            </div>
+            <nav class="navbar" id="navLinks">
+                <div class="btnhide" id="hidebtn">
+                    <i class="hide__btn fa fa-times" onclick="hideMenu()" aria-hidden="true"></i>
+                </div>
+        
+                <ul class="navbar__menu">
+                    <li class="navbar__item"><a href="index.html" class="navbar__link">Inicio</a></li>
+                    <li class="navbar__item"><a href="cursos.html" class="navbar__link">Cursos</a></li>
+                    <li class="navbar__item"><a href="contacto.html" class="navbar__link">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="toggle__menu">
+                <i class="menu__btn fas fa-bars" onclick="showMenu()"></i>
+            </div>
+        </header>
+        <main class="main__page">
+            <section class="main__banner">
+                <img src="img/background-about-us.jpg" alt="" class="banner__img">
+            </section>
+            <section class="main__acerca-de">
+                <div class="sub__acerca-de">
+                        <div class="acerca-de__item">
+                            <h3 class="acerca-de__heading">Quiénes somos</h3>
+                            <p class="acerca-de__paragraph">
+                                Hace quince años inicio este proyecto inicio para responder a la gran necesidad en el aprendizaje y manejo de la
+                                tecnología moderna que existía en esos momentos.
+                        
+                            </p>
+                            <p class="acerca-de__paragraph">
+                                Ofertamos diversos cursos de computación como: Operador de
+                                microcomputadora, Windows y Office, Reparación y mantenimiento de PC, Diseño, Administració de Redes, Técnica
+                                para el
+                                manejo de caja, entre otros.
+                            
+                            </p>
+                        </div>
+                        <div class="acerca-de__item">
+                            <h3 class="acerca-de__heading">Misión</h3>
+                            <p class="acerca-de__paragraph">
+                                SYDICOM es un instituto de computación por su excelencia en formación de recursos humanos en las áreas de
+                                computación,
+                                trabaja en función de ampliar y fortalecer una inmediata inserción laboral a nuestros egresados con los
+                                conocimientos y
+                                habilidades en mercado laboral.
+                            </p>
+                        </div>
+                        <div class="acerca-de__item">
+                            <h3 class="acerca-de__heading">Visión</h3>
+                            <p class="acerca-de__paragraph">
+                                SYDICOM es un Instituto de computación que goza de prestigio cuya visión es formar profesionales en las áreas de
+                                comercio. Basado en tecnología en correspondencia con nuestra filosofía institucional brindando un espacio de
+                                motivación
+                                y desarrollo en nuestros cursos de computación a nuestros egresados.
+                            </p>
+                        </div>
+                        <div class="acerca-de__item">
+                            <h3 class="acerca-de__heading">Valores</h3>
+                            <ul class="acerca-de__list">
+                                <li>Responsabilidad</li>
+                                <li>Calidad</li>
+                                <li>Conocimiento</li>
+                                <li>Honradez</li>
+                                <li>Comunicación</li>
+                                <li>Alta Tecnología</li>
+                                <li>Capacidad</li>
+                            </ul>
+                        </div>
+                </div>
+                <div class="sub__acerca-de">
+                    <img src="img/img-estudiante-musica.png" alt="" class="sub__acerca-de__img">
+                </div>           
+            </section>
+        </main>
+    </div>
+   <footer class="footer">
+        <article class="footer__article">
+            <p class="footer__paragraph">Todos los derechos reservados © 2015. Desarrollado por Luis Alexander Selva</p>
+        </article>
+        <div class="footer__socialnetwork">
+            <i class="scn fab fa-facebook-square"></i>
+            <i class="scn fab fa-twitter-square"></i>
+        </div>
+    </footer>
+    <script src="menu.js"></script>
+</body>
+
+</html>
