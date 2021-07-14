@@ -22,6 +22,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  height:100vh;
 }
 .main-wrapper {
   max-width: 70rem;
